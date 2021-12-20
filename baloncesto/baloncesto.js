@@ -4,9 +4,9 @@ var currentState = "";
 
 function switcheroo() {
     currentState = document.getElementById("changer").innerHTML;
-    if(currentState == "Yo prefiero el futbol que el futbol americano, porque el futbol americano es muy peligroso. Pero el futbol y el futbol americano es muy divertido. Yo pienso el futbol es mas interesante que el baloncesto, pero mas estudiantes piensan el baloncesto es mas interesante.") {
-        document.getElementById("changer").innerHTML = "HELLO"
+    if(currentState == "Nosotros preferimos el baloncesto más que el béisbol, porque el baloncesto es muy interesante. Muy estudiantes de Edgemont piensan ver y jugar al baloncesto es muy divertido. Tambien el baloncesto es menos peligroso que el fútbol americano, y no es muy difícil.") {
+        document.getElementById("changer").innerHTML = "Nosotros no conocemos las reglas de baloncesto, pero Rohan piensa ver el baloncesto es poco divertido. "
     }else {
-        document.getElementById("changer").innerHTML= "Yo prefiero el futbol que el futbol americano, porque el futbol americano es muy peligroso. Pero el futbol y el futbol americano es muy divertido. Yo pienso el futbol es mas interesante que el baloncesto, pero mas estudiantes piensan el baloncesto es mas interesante."
+        document.getElementById("changer").innerHTML= "Nosotros preferimos el baloncesto más que el béisbol, porque el baloncesto es muy interesante. Muy estudiantes de Edgemont piensan ver y jugar al baloncesto es muy divertido. Tambien el baloncesto es menos peligroso que el fútbol americano, y no es muy difícil."
     }
 }
