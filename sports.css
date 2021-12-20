@@ -1,0 +1,63 @@
+.sportsTable {
+    border-radius: 4px;
+}
+
+.sportsButton {
+        background-color: aqua;
+        font-weight: bold;
+        border: 3px solid blue;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 100px;
+}
+
+.sportsButton:hover {
+    background-color: orange;
+    color: black;
+}
+
+body {
+        background-color: PaleTurquoise;
+      }
+      
+table {
+background-color: black;
+margin-left: auto;
+margin-right: auto;
+}
+
+th {
+padding: 10px;
+text-align: center;
+}
+
+tr {
+padding: 10px;
+background-color: blue;
+color: lightblue;
+text-align: center;
+}
+
+td {
+padding: 10px;
+background-color: lightblue;
+color: blue;
+text-align: center;
+}
+
+#soccerImage {
+height: 40%;
+width: 40%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.sportsText {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.sportsButtons {
+text-align: center;
+}
